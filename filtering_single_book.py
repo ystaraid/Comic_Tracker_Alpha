@@ -17,7 +17,7 @@ try:
 except FileNotFoundError:
     print(f"{sigongsa_all_basic_info_filtered_file} not found")  
 
-excluding_title = ['세트', '묶음', '박스', '이슈', '원샷', '백과사전', '무비 가이드', '고담 시티 투어'] 
+excluding_title = ['세트', '묶음', '박스', '이슈', '원샷', '백과사전', '무비 가이드', '고담 시티 투어', '패키지', '가이드'] 
 excluding_set = set(excluding_title)
 
 sigongsa_all_basic_info_filtered_title = []
